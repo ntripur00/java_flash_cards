@@ -5,6 +5,13 @@
 //  Created by Nischal Tripuraneni on 5/8/23.
 //
 
-import Foundation
+struct FlashCard {
+    let question: String
+    let answer: String
+}
 
-typealias FlashCard = (question: String, answer: String)
+struct CardBox {
+    var flashCards: [FlashCard]
+}
+
+
